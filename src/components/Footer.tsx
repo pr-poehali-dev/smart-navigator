@@ -6,56 +6,38 @@ export default function Footer() {
     >
       <div className="relative h-[calc(100vh+400px)] sm:h-[calc(100vh+600px)] lg:h-[calc(100vh+800px)] -top-[100vh]">
         <div className="h-[400px] sm:h-[600px] lg:h-[800px] sticky top-[calc(100vh-400px)] sm:top-[calc(100vh-600px)] lg:top-[calc(100vh-800px)]">
-          <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
+          <div className="py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between" style={{ backgroundColor: "#0d0b08", borderTop: "1px solid hsl(43, 74%, 58%, 0.2)" }}>
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Услуги</h3>
-                <a
-                  href="#naming"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <h3 className="mb-2 sm:mb-3 uppercase text-xs tracking-[0.3em] font-light" style={{ color: "hsl(43, 74%, 58%)" }}>Услуги</h3>
+                <a href="#naming" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Нейминг и бренд
                 </a>
-                <a
-                  href="#visual"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <a href="#visual" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Визуализации
                 </a>
-                <a
-                  href="#print"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <a href="#print" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Полиграфия
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Ещё</h3>
-                <a
-                  href="#events"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <h3 className="mb-2 sm:mb-3 uppercase text-xs tracking-[0.3em] font-light" style={{ color: "hsl(43, 74%, 58%)" }}>Ещё</h3>
+                <a href="#events" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Выставки и события
                 </a>
-                <a
-                  href="#sites"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <a href="#sites" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Оформление площадок
                 </a>
-                <a
-                  href="#contact"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
+                <a href="#contact" className="hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 70%)" }}>
                   Связаться
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
-              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
+              <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 font-bold tracking-tight" style={{ color: "hsl(43, 74%, 58%)" }}>
                 BRANDPOINT
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} BRANDPOINT</p>
+              <p className="text-sm sm:text-base font-light" style={{ color: "hsl(45, 20%, 40%)" }}>{new Date().getFullYear()} BRANDPOINT</p>
             </div>
           </div>
         </div>
