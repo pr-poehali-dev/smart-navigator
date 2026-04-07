@@ -30,6 +30,14 @@ export default function Promo() {
         Ваш проект заслуживает сильного образа
       </h3>
 
+      <div className="absolute top-12 right-6 z-10 flex flex-col gap-1 text-right">
+        {["Нейминг и бренд", "Визуализации", "Полиграфия", "Выставки и события", "Оформление площадок", "Мерч"].map((item) => (
+          <span key={item} className="text-xs sm:text-sm font-light uppercase tracking-widest" style={{ color: "hsl(45, 20%, 60%)" }}>
+            {item}
+          </span>
+        ))}
+      </div>
+
       <p className="absolute bottom-12 left-6 right-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl z-10 font-light leading-tight" style={{ color: "hsl(45, 20%, 92%)" }}>
         Креативная концепция, которая продаёт ещё до старта продаж.
         <span style={{ color: "hsl(43, 74%, 58%)" }}> Я помогаю создавать образ проекта</span> — от первого слова до финального штриха в его визуальном воплощении.
