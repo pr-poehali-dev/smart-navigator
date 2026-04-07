@@ -32,7 +32,7 @@ export default function Promo() {
 
       <p className="absolute bottom-12 left-6 right-6 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl z-10 font-light leading-tight" style={{ color: "hsl(45, 20%, 92%)" }}>
         Креативная концепция, которая продаёт ещё до старта продаж.
-        <span style={{ color: "hsl(43, 74%, 58%)" }}> Мы создаём образ проекта</span> — от первого слова до последнего стенда на выставке.
+        <span style={{ color: "hsl(43, 74%, 58%)" }}> Я помогаю создавать образ проекта</span> — от первого слова до финального штриха в его визуальном воплощении.
       </p>
     </div>
   );
